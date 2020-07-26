@@ -38,7 +38,7 @@ function draw() {
     
     blendMode(MULTIPLY)
     noStroke()
-    fill(random(190,255), random(190,255), random(190,255))
+    fill(random(0,255), random(0,255), random(0,255))
     rect(0, dy, width, rowSize)
     blendMode(BLEND)
 
